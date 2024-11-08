@@ -7,20 +7,20 @@ interface TextType {
 
 export function LargestText({ children }: TextType) {
   return (
-    <div className={"text-4xl font-bold text-black text-center"}>
+    <div className={"text-5xl font-bold text-black text-center"}>
       {children}
     </div>
   );
 }
 
 export function LargerText({ children }: TextType) {
-  return <div className={"text-2xl "}>{children}</div>;
+  return <div className={"text-3xl font-bold "}>{children}</div>;
 }
 
 export function LargeText({ children }: TextType) {
-  return <div className={"text-xl "}>{children}</div>;
+  return <div className={"text-lg font-bold "}>{children}</div>;
 }
 
-export function DescriptiveText({ children }: TextType) {
-  return <div className={"text-gray-500 text-center"}>{children}</div>;
+export function DescriptiveText({ children, align }: {children: React.ReactNode, align:string}) {
+  return <div className={`text-gray-500 text-${align}`}>{children}</div>;
 }

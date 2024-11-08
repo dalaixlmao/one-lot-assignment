@@ -11,7 +11,7 @@ export default function Landing() {
           OneLot
         </LargestText>
         <div className="w-1/2 py-5">
-          <DescriptiveText>
+          <DescriptiveText align="center">
             We enable dealers to buy more cars through our inventory loan
             solutions and sell cars more efficiently through our Dealership
             Management System with its inventory management, marketing solutions
@@ -38,7 +38,7 @@ export default function Landing() {
             height={800}
             alt={"screen"}
           />
-          <DescriptiveText>Regulated By</DescriptiveText>
+          <DescriptiveText align="center">Regulated By</DescriptiveText>
           <Image
             src={"/regulated-credits.svg"}
             height={200}
