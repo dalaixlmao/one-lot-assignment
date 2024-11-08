@@ -27,8 +27,8 @@ const offer = [
 
 export default function Offering() {
   return (
-    <WhiteSection className="flex flex-row">
-      <div className="w-1/2 pr-[200px]">
+    <WhiteSection className="flex md:flex-row flex-col">
+      <div className="md:w-1/2 w-full md:pr-[200px] pb-5 md:border-0 border-b">
         <LargerText>Everything you need to grow your business</LargerText>
         <DescriptiveText align="">
           OneLot is your trusted lending and financing partner, exclusively

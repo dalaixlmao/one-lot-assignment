@@ -18,7 +18,7 @@ export default function Offer({
   color,
 }: OfferType) {
   return (
-    <div className="flex flex-row items-start pr-48">
+    <div className="md:mt-0 mt-5 flex flex-row items-start md:pr-48">
       <div className="mt-1">
         <IconBubble color={color}>{icon}</IconBubble>
       </div>
