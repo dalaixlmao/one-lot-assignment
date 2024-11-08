@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        blue: "#3600D1",
+        purple: "#57009C",
+        purple2: "#F5EBF9"
+
       },
     },
   },
