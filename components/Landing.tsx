@@ -10,7 +10,7 @@ export default function Landing() {
           Grow your dealership with working capital loans and digital tools from
           OneLot
         </LargestText>
-        <div className="w-1/2 py-5">
+        <div className="md:w-1/2 w-full py-5">
           <DescriptiveText align="center">
             We enable dealers to buy more cars through our inventory loan
             solutions and sell cars more efficiently through our Dealership

@@ -7,7 +7,7 @@ interface TextType {
 
 export function LargestText({ children }: TextType) {
   return (
-    <div className={"text-5xl font-bold text-black text-center"}>
+    <div className={"md:text-5xl text-3xl font-bold text-black text-center"}>
       {children}
     </div>
   );

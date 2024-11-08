@@ -42,7 +42,7 @@ export default function Offering() {
           </div>
         </button>
       </div>
-      <div>
+      <div className="md:pl-24">
         {offer.map((e, index) => {
           return (
             <Offer
