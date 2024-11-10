@@ -1,11 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { HyperButton } from "./ui/buttons";
-import {
-  LargerText,
-  LargestText,
-  DescriptiveText,
-} from "./ui/texts";
+import { LargerText, LargestText, DescriptiveText } from "./ui/texts";
 import ListItem from "./ui/list-item";
 
 interface FeatureType {
@@ -36,15 +32,19 @@ export default function Feature({
     <div
       className={
         index % 2
-          ? `my-10  w-full flex md:flex-row-reverse flex-col pl-10 items-center`
-          : `my-10 w-full flex md:flex-row flex-col-reverse pr-10 items-center`
+          ? `my-10  w-full flex md:flex-row-reverse flex-col-reverse md:pl-10 items-center`
+          : `my-10 w-full flex md:flex-row flex-col-reverse md:pr-10 items-center`
       }
     >
-      <div className="w-[52%]">
+      <div className="md:w-[52%] w-[90%] md:mt-0 mt-6">
         <Image src={imagePath} height={1000} width={1000} alt={imagePath} />
       </div>
       <div
-        className={index % 2 ? "w-[48%] pl-10 pr-24" : "w-[48%] pl-24 pr-10"}
+        className={
+          index % 2
+            ? "md:w-[48%] w-[90%] md:pl-10 pl-3 md:pr-24 pr-3"
+            : "md:w-[48%] w-[90%] md:pl-24 pl-3 md:pr-10 pr-3"
+        }
       >
         <div>
           <LargestText align="left">{title}</LargestText>
@@ -58,7 +58,7 @@ export default function Feature({
         <div className="my-5 border-t border-b">
           {advantages.map((e, index) => {
             return (
-              <ListItem>
+              <ListItem key={index}>
                 <div key={index} className="text-lg">
                   {e.title != "" && <a className="font-bold">{e.title}: </a>}
                   <a className="font-semibold">{e.description}</a>
