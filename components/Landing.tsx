@@ -6,7 +6,7 @@ export default function Landing() {
   return (
     <div className="flex flex-col items-center mt-10">
       <div className="w-[90%] items-center flex flex-col">
-        <LargestText>
+        <LargestText align="center">
           Grow your dealership with working capital loans and digital tools from
           OneLot
         </LargestText>

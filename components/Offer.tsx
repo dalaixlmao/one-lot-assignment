@@ -25,11 +25,11 @@ export default function Offer({
       <div className="ml-2">
         <div className="flex flex-row items-center">
           <div className="">
-            <LargeText>{title}</LargeText>
+            <LargeText align="center">{title}</LargeText>
           </div>
         </div>
-        <div className={`text-${color} font-medium`}>{motive}</div>
-        <div>
+        <div className={`text-${color} text-sm font-medium`}>{motive}</div>
+        <div className="text-sm">
           <DescriptiveText align="left">{description}</DescriptiveText>
         </div>
       </div>

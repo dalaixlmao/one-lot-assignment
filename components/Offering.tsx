@@ -5,6 +5,13 @@ import Speaker from "./icons/speaker";
 import LongRightArrow from "./icons/long-right-arrow";
 import Offer from "./Offer";
 
+const pageDescription = {
+  title: "Everything you need to grow your business",
+  description: `OneLot is your trusted lending and financing partner, exclusively
+          tailored for used car dealerships. We also offer digital tools for
+          streamlined operations and growth of your dealership.`,
+};
+
 const offer = [
   {
     title: "Dealer Loans",
@@ -29,11 +36,9 @@ export default function Offering() {
   return (
     <WhiteSection className="flex md:flex-row flex-col">
       <div className="md:w-1/2 w-full md:pr-[200px] pb-5 md:border-0 border-b">
-        <LargerText>Everything you need to grow your business</LargerText>
+        <LargerText align="center">{pageDescription.title}</LargerText>
         <DescriptiveText align="">
-          OneLot is your trusted lending and financing partner, exclusively
-          tailored for used car dealerships. We also offer digital tools for
-          streamlined operations and growth of your dealership.
+          {pageDescription.description}
         </DescriptiveText>
         <button className="text-purple font-semibold flex flex-row items-center">
           Learn More

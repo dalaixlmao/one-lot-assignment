@@ -13,9 +13,9 @@ export function WhiteSection({ children, className }: SectionType) {
 export function GraySection({ children, className }: SectionType) {
   return (
     <div
-      className={`w-full flex flex-col bg-gray-100 items-center py-10 ${className}`}
+      className={`w-full flex flex-col bg-gray-100/20 items-center py-10 ${className}`}
     >
-      <div className={`w-[90%] ${className}`}>{children}</div>
+      <div className={`${className}`}>{children}</div>
     </div>
   );
 }
