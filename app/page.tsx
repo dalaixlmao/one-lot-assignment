@@ -2,6 +2,7 @@ import Image from "next/image";
 import Landing from "@/components/Landing";
 import Offering from "@/components/Offering";
 import Features from "@/components/Features";
+import WhyOneLot from "@/components/WhyOneLot";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Landing />
       <Offering />
       <Features />
+      <WhyOneLot />
     </div>
   );
 }
