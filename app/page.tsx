@@ -3,6 +3,7 @@ import Landing from "@/components/Landing";
 import Offering from "@/components/Offering";
 import Features from "@/components/Features";
 import WhyOneLot from "@/components/WhyOneLot";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Offering />
       <Features />
       <WhyOneLot />
+      <Testimonials />
     </div>
   );
 }

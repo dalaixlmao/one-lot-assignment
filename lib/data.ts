@@ -83,4 +83,13 @@ const values =[
   },
 ]
 
-export { features, values };
+const testimonials = [
+  {
+    icon:"/testimonial_4.svg",
+    description: "“The service of OneLot is top-notch. They act fast and can provide dealers with the funds they need, when they need it.”",
+    author: "Mark Vergel de Dios",
+    designation: "Owner, MVD Auto Works"
+  }
+]
+
+export { features, values, testimonials };
