@@ -4,6 +4,7 @@ import Offering from "@/components/Offering";
 import Features from "@/components/Features";
 import WhyOneLot from "@/components/WhyOneLot";
 import Testimonials from "@/components/Testimonials";
+import StayConnected from "@/components/StayConnected";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Features />
       <WhyOneLot />
       <Testimonials />
+      <StayConnected />
     </div>
   );
 }
