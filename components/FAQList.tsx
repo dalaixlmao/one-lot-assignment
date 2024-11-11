@@ -52,7 +52,7 @@ export default function FAQList({
       >
         <div className="py-2 text-gray-500 font-medium">
 
-          {/* FAQ Answer */}
+          {/* FAQ Answer*/}
           {faq.answer}
 
           {/* FAQ Link if Any */}
