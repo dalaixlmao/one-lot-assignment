@@ -103,4 +103,31 @@ const posts = [
   "/post.png",
 ];
 
-export { features, values, testimonials, posts };
+const faqs = [
+  {
+    question: "How do I apply for a loan?",
+    answer:
+      "OneLot onboarding is easy and straightforward onboarding process. We only require a few documents and after a few days you can get your first loan.",
+    link: {
+      text: "See full requirements",
+      url: "#",
+    },
+  },
+  {
+    question: "What are the interest rates offered?",
+    answer:
+      "Our competitive interest rates vary based on your credit profile and loan terms.",
+  },
+  {
+    question: "What kind of vehicles can I upload?",
+    answer:
+      "We accept a wide range of vehicles subject to our eligibility criteria.",
+  },
+  {
+    question: "How can I keep track of potential buyers?",
+    answer:
+      "We provide a comprehensive dashboard to monitor all potential buyer interactions.",
+  },
+];
+
+export { features, values, testimonials, posts, faqs };
