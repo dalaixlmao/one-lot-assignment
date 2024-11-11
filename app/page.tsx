@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Landing from "@/components/Landing";
 import Offering from "@/components/Offering";
 import Features from "@/components/Features";
