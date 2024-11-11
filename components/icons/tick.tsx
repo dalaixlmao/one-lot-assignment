@@ -6,7 +6,7 @@ export default function Tick() {
       viewBox="0 0 24 24"
       strokeWidth={3}
       stroke="#57009C"
-      className="size-2"
+      className="size-4 p-1 bg-[#F5EBF9] flex flex-col items-center justify-center rounded-full"
     >
       <path
         strokeLinecap="round"
