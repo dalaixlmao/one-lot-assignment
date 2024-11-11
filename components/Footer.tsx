@@ -1,4 +1,3 @@
-import { HyperButton } from "./ui/buttons";
 import { WhiteSection } from "./ui/section-card";
 import FooterNav from "./FooterNav";
 import FooterCopyright from "./FooterCopyright";

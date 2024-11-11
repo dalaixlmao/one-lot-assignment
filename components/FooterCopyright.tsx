@@ -1,5 +1,3 @@
-// © 2024 OneLot Technologies Incorporated Pte. Ltd. All Rights Reserved.
-// © 2024 OneLot Financing Corporation. All Rights Reserved.
 import FacebookLogo from "./icons/facebook-logo";
 import InstagramLogo from "./icons/instagram-logo";
 

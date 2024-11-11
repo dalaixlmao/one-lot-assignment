@@ -1,6 +1,6 @@
 import { HyperButton } from "./ui/buttons";
 import { WhiteSection } from "./ui/section-card";
-import { DescriptiveText, LargestText } from "./ui/texts";
+import { LargestText } from "./ui/texts";
 
 export default function GetStartedToday() {
   return (
