@@ -14,11 +14,11 @@ export default function Testimonial({
   designation,
 }: TestimonialType) {
   return (
-    <div className="flex flex-col items-center w-1/2">
+    <div className="flex flex-col items-center md:w-1/2 w-[90%]">
       <div className="my-5">
         <Image src={icon} height={100} width={100} alt={icon} />
       </div>
-      <div className="my-5 text-3xl font-semibold text-center">
+      <div className="my-5 md:text-3xl text-xl font-semibold text-center">
         {description}
       </div>
       <div className="my-5">
