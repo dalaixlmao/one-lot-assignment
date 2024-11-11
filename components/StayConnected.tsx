@@ -21,11 +21,11 @@ export default function StayConnected() {
           latest offers, updates, and new product features.
         </div>
       </div>
-      <div className="mt-10">
-        <SocialButton className="mr-2" onChange={() => {setState(setHoveredF, hoveredF)}}>
+      <div className="mt-10 flex md:flex-row flex-col">
+        <SocialButton className="md:mr-2" onChange={() => {setState(setHoveredF, hoveredF)}}>
           <SocialButtonContent icon={<FacebookLogo color={hoveredF ? "#57009C" : "black"} />}  hover = {hoveredF} social="Facebook"/>
         </SocialButton>
-        <SocialButton className="ml-2" onChange={() => {setState(setHoveredI, hoveredI)}}>
+        <SocialButton className="md:ml-2 md:mt-0 mt-2" onChange={() => {setState(setHoveredI, hoveredI)}}>
           <SocialButtonContent icon={<InstagramLogo color={hoveredI ? "#57009C" : "black"} />}  hover = {hoveredI} social="Instagram"/>
         </SocialButton>
       </div>
