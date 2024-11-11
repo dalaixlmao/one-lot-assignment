@@ -1,4 +1,3 @@
-import { WrapperFunctionTypes } from "@/lib/types";
 import React from "react";
 
 interface TextType {

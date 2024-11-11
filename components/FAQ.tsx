@@ -21,6 +21,7 @@ const FAQ = () => {
         <div className="space-y-4 mt-10">
           {faqs.map((faq, index) => (
             <FAQList
+            key={index}
               faq={faq}
               toggleFAQ={toggleFAQ}
               index={index}
