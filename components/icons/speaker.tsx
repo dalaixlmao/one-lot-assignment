@@ -1,3 +1,5 @@
+// Speaker Icon
+
 export default function Speaker({ color }: { color: string }) {
   return (
     <svg

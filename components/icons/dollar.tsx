@@ -1,3 +1,6 @@
+// Dollar Icon
+
+
 export default function Dollar({color}:{color:string}) {
   return (
     <svg

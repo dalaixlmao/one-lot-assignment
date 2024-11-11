@@ -1,3 +1,5 @@
+// Right arrow
+
 export default function Right() {
   return (
     <svg

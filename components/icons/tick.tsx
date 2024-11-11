@@ -1,3 +1,5 @@
+// Tick mark icon
+
 export default function Tick() {
   return (
     <svg

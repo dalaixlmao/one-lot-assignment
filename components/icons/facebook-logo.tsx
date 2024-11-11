@@ -1,3 +1,5 @@
+// Facebook Logo
+
 export default function FacebookLogo({color}:{color:string}) {
   return (
     <svg

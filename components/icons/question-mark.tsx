@@ -1,3 +1,5 @@
+// Question mark icon
+
 export default function QuestionMark() {
   return (
     <svg

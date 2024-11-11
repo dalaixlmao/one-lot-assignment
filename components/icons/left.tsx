@@ -1,3 +1,5 @@
+// Left arrow
+
 export default function Left() {
   return (
     <svg

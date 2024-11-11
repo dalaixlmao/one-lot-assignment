@@ -1,3 +1,5 @@
+// Long right arrow
+
 export default function LongRightArrow({color}:{color:string}) {
   return (
     <svg

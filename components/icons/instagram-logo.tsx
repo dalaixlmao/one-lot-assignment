@@ -1,3 +1,5 @@
+// Instagram Logo
+
 export default function InstagramLogo({color}:{color:string}) {
   return (
     <svg

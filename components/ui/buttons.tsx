@@ -1,6 +1,9 @@
 import { WrapperFunctionTypes } from "@/lib/types";
 import React from "react";
 
+//File contains all sort of buttons that'll be used in the project.
+
+// Hyper button of purple color
 export function HyperButton({ children }: WrapperFunctionTypes) {
   return (
     <button className="px-3 py-2 text-sm text-white font-semmibold bg-purple rounded-md">
@@ -9,6 +12,8 @@ export function HyperButton({ children }: WrapperFunctionTypes) {
   );
 }
 
+
+// Buttons with transparent borders and background
 export function LightButton({ children }: WrapperFunctionTypes) {
   return (
     <button className="px-3 py-2 text-sm font-semibold text-gray-900 hover:text-purple">
@@ -17,6 +22,8 @@ export function LightButton({ children }: WrapperFunctionTypes) {
   );
 }
 
+
+//Button with black border, only used for social media
 export function SocialButton({
   children,
   onChange,
@@ -37,6 +44,7 @@ export function SocialButton({
   );
 }
 
+// Content inside social media button
 export function SocialButtonContent({
   icon,
   hover,
