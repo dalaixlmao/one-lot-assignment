@@ -19,22 +19,39 @@ export function LightButton({ children }: WrapperFunctionTypes) {
 
 export function SocialButton({
   children,
-  onMouseEnter,
-  onMouseLeave,
+  onChange,
   className,
 }: {
   children: React.ReactNode;
-  onMouseEnter: () => void;
-  onMouseLeave: () => void;
+  onChange: () => void;
   className: string;
 }) {
   return (
     <button
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
+      onMouseEnter={onChange}
+      onMouseLeave={onChange}
       className={"px-3 py-2 border border-black rounded-lg " + className}
     >
       {children}
     </button>
+  );
+}
+
+export function SocialButtonContent({
+  icon,
+  hover,
+  social,
+}: {
+  icon: React.ReactNode;
+  hover: boolean;
+  social: string;
+}) {
+  return (
+    <div className="flex flex-row">
+      {icon}
+      <div className={(hover ? `text-[#57009C]` : `text-black`) + ` ml-3`}>
+        Follow on {social}
+      </div>
+    </div>
   );
 }
