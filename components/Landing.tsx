@@ -4,13 +4,13 @@ import { DescriptiveText, LargestText } from "./ui/texts";
 
 export default function Landing() {
   return (
-    <div className="flex flex-col items-center mt-10">
-      <div className="w-[90%] items-center flex flex-col">
+    <div className="w-screen flex flex-col items-center mt-10">
+      <div className=" items-center flex flex-col">
         <LargestText align="center">
           Grow your dealership with working capital loans and digital tools from
           OneLot
         </LargestText>
-        <div className="md:w-1/2 w-full py-5">
+        <div className="md:w-1/2 w-[90%] py-5">
           <DescriptiveText align="center">
             We enable dealers to buy more cars through our inventory loan
             solutions and sell cars more efficiently through our Dealership
@@ -29,8 +29,8 @@ export default function Landing() {
         height={800}
         alt={"screen"}
       />
-      <div className="bg-gray-100 pt-10 md:pt-0 pb-10 md:mt-[-15rem] w-full flex flex-col items-center">
-        <div className="w-[90%] md:pt-72 flex flex-col items-center">
+      <div className="bg-gray-200/30 pt-10 md:pt-0 pb-10 md:mt-[-20rem] w-screen flex flex-col items-center">
+        <div className="w-[90%] md:pt-96 flex flex-col items-center">
           <Image
             className="z-10 md:hidden block"
             src={"/screen.svg"}
