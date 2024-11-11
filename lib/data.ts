@@ -55,41 +55,52 @@ const features = [
   },
 ];
 
-const values =[
+const values = [
   {
-    icon:"https://www.onelot.ph/trust.svg",
-    value:"Trust",
-    title:"Regulated by Securities and Exchange Commission (SEC) Philippines"
+    icon: "https://www.onelot.ph/trust.svg",
+    value: "Trust",
+    title: "Regulated by Securities and Exchange Commission (SEC) Philippines",
   },
   {
-    icon:"https://www.onelot.ph/high_amount.svg",
-    value:"High Amount",
-    title:"Get the highest loan amounts compared to other banks and lenders"
+    icon: "https://www.onelot.ph/high_amount.svg",
+    value: "High Amount",
+    title: "Get the highest loan amounts compared to other banks and lenders",
   },
   {
-    icon:"https://www.onelot.ph/fast.svg",
-    value:"Fast",
-    title:"Get the money within a few hours on the same day"
+    icon: "https://www.onelot.ph/fast.svg",
+    value: "Fast",
+    title: "Get the money within a few hours on the same day",
   },
   {
-    icon:"https://www.onelot.ph/flexible.svg",
-    value:"Flexible",
-    title:"Loans are tailored to your needs"
+    icon: "https://www.onelot.ph/flexible.svg",
+    value: "Flexible",
+    title: "Loans are tailored to your needs",
   },
   {
-    icon:"https://www.onelot.ph/easy.svg",
-    value:"Easy",
-    title:"Run through an easy process and get your first loans within days"
+    icon: "https://www.onelot.ph/easy.svg",
+    value: "Easy",
+    title: "Run through an easy process and get your first loans within days",
   },
-]
+];
 
 const testimonials = [
   {
-    icon:"/testimonial_4.svg",
-    description: "“The service of OneLot is top-notch. They act fast and can provide dealers with the funds they need, when they need it.”",
+    icon: "/testimonial_4.svg",
+    description:
+      "“The service of OneLot is top-notch. They act fast and can provide dealers with the funds they need, when they need it.”",
     author: "Mark Vergel de Dios",
-    designation: "Owner, MVD Auto Works"
-  }
-]
+    designation: "Owner, MVD Auto Works",
+  },
+];
 
-export { features, values, testimonials };
+const posts = [
+  "/post.png",
+  "/post.png",
+  "/post.png",
+  "/post.png",
+  "/post.png",
+  "/post.png",
+  "/post.png",
+];
+
+export { features, values, testimonials, posts };
